@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="iutlan.fr.sports2000.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ici, il faut mettre un formulaire pour afficher les champs d'une sortie" />
+
+    <EditText android:id="@+id/sortie_infos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="informations de la sortie"/>
+
+    <Button android:id="@+id/valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onValider"
+        android:text="Valider" />
+
+</LinearLayout>
