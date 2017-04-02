@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Sports2000</string>
+    <string name="app_name">sportable</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="button_nouveauSport">Nouveau sport</string>
+    <string name="et_date">Date</string>
+    <string name="et_lieu">Lieu</string>
+    <string name="et_infos">Infos</string>
+    <string name="et_note">Note</string>
+    <string name="bt_nouvelleSortie">Nouvelle sortie</string>
+    <string name="valider">valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="supprimer">Supprimmer</string>
+    <string name="sport_nom">Nom</string>
+    <string name="sport_description">Description</string>
+    <string name="sport_couleur">Couleur</string>
 </resources>

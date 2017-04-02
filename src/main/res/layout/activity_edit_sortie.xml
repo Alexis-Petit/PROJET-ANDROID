@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="fr.iutlan.sportable.EditSortieActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text="Vous pouvez modifier les informations de votre sortie"
+    android:textColor="#030303" />
+
+<EditText android:id="@+id/sortie_infos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="informations de la sortie"/>
+
+<EditText android:id="@+id/sortie_lieu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Lieu de la sortie"/>
+
+<EditText android:id="@+id/sortie_date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Date de la sortie"/>
+
+<RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/sortie_note"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_validationEditSortie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_add_white_24dp" />
+
+        <ImageButton
+            android:id="@+id/ib_cancelEditSortie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_clear_white_24dp" />
+
+        <ImageButton
+            android:id="@+id/ib_supprimerEditSortie"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_delete_white_24dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
